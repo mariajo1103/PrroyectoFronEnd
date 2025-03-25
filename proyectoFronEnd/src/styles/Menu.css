@@ -1,0 +1,68 @@
+
+.ContNAV {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  background: rgba(63, 103, 236, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.H1Nav {
+  font-family: Pacifico;
+  color: orange;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.ContNAV input {
+  width: 30%;
+  border-radius: 20px;
+  border: none;
+  padding: 8px 15px;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.ContNAV input:focus {
+  outline: none;
+  transform: scale(1.05);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.btnsNAV {
+  display: flex;
+  gap: 15px;
+}
+
+.btnsNAV button, 
+.btnAbout {
+  border-radius: 20px;
+  height: 40px;
+  padding: 0 15px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgb(202, 106, 27);
+  color: rgb(158, 88, 42); 
+  transform: scale(1.05);
+}
+
+.LINK {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.LINK:hover {
+  color: rgb(255, 165, 0);
+}

@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "id": "3c6c",
+      "nombre": "maria",
+      "correo": "naranjo@hi.com",
+      "contraseña": "123",
+      "rol": "admin"
+    },
+    {
+      "id": "3156",
+      "nombre": "caleb",
+      "correo": "caleb@hi.com",
+      "contraseña": "123",
+      "rol": "cliente"
+    },
+    {
+      "id": "791e",
+      "nombre": "hola1",
+      "correo": "hola1@hi.com",
+      "contraseña": "12345",
+      "rol": "cliente"
+    },
+    {
+      "id": "20a3",
+      "nombre": "rrr",
+      "correo": "rrr@hotmail.com",
+      "contraseña": "e3e234",
+      "rol": "cliente"
+    },
+    {
+      "id": "5c6b",
+      "nombre": "gabriel",
+      "correo": "g@hi.com",
+      "contraseña": "123",
+      "rol": "cliente"
+    },
+    {
+      "id": "da38",
+      "nombre": "iub",
+      "correo": "uhiuhuh@fghj.com",
+      "contraseña": "1234567",
+      "rol": "cliente"
+    },
+    {
+      "id": "f76b",
+      "nombre": "Majo",
+      "contraseña": "123"
+    },
+    {
+      "id": "783b",
+      "nombre": "Justin",
+      "correo": "JUs@12.com",
+      "contraseña": "123",
+      "rol": "cliente"
+    }
+  ],
+  "publications": [
+   
+  ]
+}
