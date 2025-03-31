@@ -1,0 +1,61 @@
+
+.conteP1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    background: #c3dffa;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 100px auto;
+}
+
+
+.name {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+#main {
+    display: flex;
+    gap: 20px;
+}
+
+.conImg {
+    flex: 1;
+    max-width: 40%;
+}
+
+.img3 {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.conDes {
+    max-width: 500px;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+.des {
+    line-height: 25px;
+    font-size: 15px;
+    max-height: 330px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+
+.T {
+    color: #3e78cf;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+   
+

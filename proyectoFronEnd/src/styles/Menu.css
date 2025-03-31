@@ -19,6 +19,7 @@
   display: flex;
   gap: 20px;
   align-items: center;
+  
 }
 
 .ContNAV input {
@@ -36,13 +37,19 @@
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+#btnsNav1 {
+  display: flex;
+  gap: 15px; 
+}
+
 
 .btnsNAV {
   display: flex;
-  gap: 15px;
+  gap: 15px;  
 }
 
-.btnsNAV button, 
+#btnsNav1 button,
+.btnsNAV button,
 .btnAbout {
   border-radius: 20px;
   height: 40px;

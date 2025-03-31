@@ -1,27 +1,28 @@
-.ContCards{
+
+.ContCards1{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 40px;
     background: rgba(63, 103, 236, 0.2);
+
     
 }
 
-.card {
+.card1 {
     line-height: 20px; 
     text-align: center;
+    background-color: white;
    
 }
 
-.card:hover{
+.card1:hover{
     transform: scale(1.05);
     box-shadow: 0px 4px 10px black;
 }
 
-
-
-.card img {
+.img1 {
     width: 90%;
     margin: 15px auto;
     height: 150px;
@@ -30,13 +31,13 @@
     border-radius: 5px;
 }
 
-.textNombre {
+.textNombre1 {
     width: 90%;
     font-weight: bolder;
     font-size: 20px;
 }
  
-.text {
+.text1 {
     font-family: cursive;
     width: 90%;
     margin-bottom: 0;
@@ -45,27 +46,4 @@
     overflow: hidden;
     padding: 5px;
 
-}
-
-.btns {
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-around;
-    width: 50%;
-    margin: 0 auto 20px auto; 
-}
-
-.btns button {
-    border: none;
-    border-radius: 10px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    background-color: rgb(202, 106, 27);
-    color: black; 
-    transform: scale(1.05);
-}
-
-button:hover{
-    background-color: white;
 }

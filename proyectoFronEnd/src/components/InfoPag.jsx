@@ -14,7 +14,7 @@ function InfoPag() {
 
             <p><strong>Tours por las islas:</strong> Descubre playas escondidas, aguas cristalinas y paisajes impresionantes en recorridos
              personalizados por las islas más visitadas del Golfo de Nicoya.
-             <Link to="/Islas">Información islas</Link>
+            
              </p>
 
                     <img className='img2' src="panga.jpg" alt="Golfo" />

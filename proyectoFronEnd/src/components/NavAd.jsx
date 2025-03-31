@@ -18,8 +18,7 @@ function NavAd() {
             <input type="search" placeholder='Busca tu experencia preferida.' />
 
         <div className='btnsNAV'>
-            <button> <Link className='LINK' to="/Register">Registrate</Link> </button>
-            <button> <Link className='LINK' to="/Login">Iniciar Sesión</Link> </button>
+            <button> <Link className='LINK' to="/">Inicio</Link> </button>
             <button><Link to="/Publi" className='LINK'>Publicar</Link></button>
         </div>
       </nav>

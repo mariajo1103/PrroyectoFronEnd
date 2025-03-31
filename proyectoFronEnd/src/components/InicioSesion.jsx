@@ -37,33 +37,33 @@ function InicioSesion() {
   }
 
   function iniciar() {
+
     
-    console.log(nombreUsuario,passwordUsuario);
-    console.log(usuarios);
+    const encontrado = usuarios.filter(usuario => usuario.nombre === nombreUsuario && usuario.contraseña === passwordUsuario)
     
-    const encontrado = usuarios.filter(usuario => usuario.nombre===nombreUsuario && usuario.contraseña=== passwordUsuario )
     
     if (encontrado.length === 0) {
-      console.log("usuario o contraseña incorrectos");
-
       Swal.fire({
         icon: "error",
-        title: "Usuario o contraseña incorrecta",
+        title: "Error",
+        text: "Usuario o contraseña incorrecto",
       });
+    } 
+    if (encontrado[0].rol === "admin") {
+      navigate("/Admi")
+      localStorage.setItem("UserAutenticado", JSON.stringify(nombreUsuario))
 
-      
-    }else{
-
-      setTimeout(() => {
-        navigate("/")
-      }, 300);
-
-      localStorage.setItem("Usuario", JSON.stringify(nombreUsuario))
+    } else {
+      navigate("/")
+      localStorage.setItem("UserAutenticado", JSON.stringify(nombreUsuario))
 
     }
+
+  
+  }
     
 
-  }
+  
   return (
     <section className='ContFather'>
 

@@ -3,7 +3,9 @@ import "../styles/Islas.css"
 
 function Islas() {
   return (
+
     <div className='conInfo'>
+
         <h3 className='H3'>Te dejamos esta lista de 9 opciones para que te antojés de una vez por todas.
             Aunque no todas las islas son habitables o accesibles,
             esto no te quitará la libertad de poder recorrerlas en lancha muy de cerca y conocer su historia.

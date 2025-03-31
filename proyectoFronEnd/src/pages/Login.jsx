@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import InicioSesion from '../components/InicioSesion'
+import MenuNave from '../components/MenuNave'
 
 function Login() {
   return (
@@ -8,6 +9,7 @@ function Login() {
 
       <InicioSesion/>
       <Footer/>
+      <MenuNave/>
 
     </div>
   )

@@ -1,14 +1,17 @@
 import React from 'react'
-import Admi from '../components/Admi'
 import NavAd from '../components/NavAd'
 import Carrusel from '../components/Carrusel'
+import Pprincipal from '../components/Pprincipal'
+import Footer from "../components/Footer"
 
 function Adm() {
   return (
     <div>
-        <Admi/>
         <NavAd/>
         <Carrusel/>
+        <Pprincipal/>
+        <Footer/>
+
     </div>
   )
 }

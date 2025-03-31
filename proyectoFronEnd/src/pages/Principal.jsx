@@ -2,16 +2,16 @@ import React from 'react'
 
 import MenuNave from '../components/MenuNave'
 import Carrusel from '../components/Carrusel'
-import Pprincipal from '../components/Pprincipal'
-
+import PprincipalUsuario from '../components/PprincipalUsuario'
+import Footer from '../components/Footer'
 
 function Principal() {
   return (
     <div>
         <MenuNave/>
         <Carrusel/>
-        <Pprincipal/>
-
+        <PprincipalUsuario/>
+        <Footer/>
     </div>
   )
 }

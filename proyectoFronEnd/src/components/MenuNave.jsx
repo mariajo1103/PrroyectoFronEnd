@@ -1,8 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "../styles/Menu.css"
+import {useNavigate } from 'react-router-dom';
 
 function MenuNave() {
+
+  const navigate = useNavigate()
+
   return (
     <div className='container'>
       <nav className='ContNAV'>
@@ -11,8 +15,9 @@ function MenuNave() {
           <h1>Golfo Tours</h1><br /><br />
         </div>
 
-        <div className='btnsNav'>
-          <button className='btnAbout'><Link className='LINK' to="/Info">Sobre nosotros</Link>  </button>
+        <div id='btnsNav1'>
+          <button> <Link className='LINK' to="/">Inicio</Link> </button>
+          <button className='btnAbout'> <Link className='LINK' to="/Islas">Información islas</Link></button>
         </div>
 
         <input type="search" placeholder='Busca tu experencia preferida.' />
@@ -21,6 +26,8 @@ function MenuNave() {
           <button> <Link className='LINK' to="/Register">Registrate</Link> </button>
           <button> <Link className='LINK' to="/Login">Iniciar Sesión</Link> </button>
         </div>
+        
+        
       </nav>
     </div>
   )

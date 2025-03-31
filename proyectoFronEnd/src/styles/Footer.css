@@ -1,8 +1,68 @@
+.cont {
+    background-color:rgb(74, 124, 231); 
+      color: white;
+      padding: 50px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      border-top: 4px solid #00B894;
+    }
+    
+    .cont > div {
+      flex: 1;
+      min-width: 250px;
+    }
+    .cont p {
+      font-size: 16px;
+      margin-bottom: 15px;
+      line-height: 1.8;
+      color: #080808; 
+    }
+    .cont a {
+      color: #1e196b; 
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+   
+    .cont section {
+        display: flex;
+        justify-content: space-around;
+        gap: 50px;
+        width: 50%;
+    }
 
-footer {
-    height: 60px;
-    border-top: 1px solid;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    .redes {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+      width: 100%;
+      margin: auto;
+      background-color: rgb(74, 124, 231);
+      padding-bottom: 40px;
+      
+    }
+    .redes div {
+      transition: transform 0.3s ease;
+    }
+    .redes div:hover {
+      transform: translateY(-5px); /* Efecto hover para elevar el icono */
+    }
+    .face {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 2px solid #00B894; /* Borde verde vibrante */
+      padding: 5px;
+      transition: all 0.3s ease;
+    }
+    .face:hover {
+      transform: scale(1.2); /* Aumentar el tamaño de las imágenes */
+      filter: brightness(1.2); /* Efecto de brillo al hacer hover */
+    }
+   
+    

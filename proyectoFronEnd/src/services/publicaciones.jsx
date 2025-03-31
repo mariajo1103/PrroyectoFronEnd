@@ -96,7 +96,7 @@ async function updatepublications(nombre,tours,descripcion,img,id)
 //////////////LLAMADO DELETE/////////////
 
 
-async function deleteUser(id) {
+async function deletepublications(id) {
     try {
         const response = await fetch(`http://localhost:3000/publications/${id}`, {
             method: 'DELETE',
@@ -116,4 +116,4 @@ async function deleteUser(id) {
     }
 }
 
-export default { deleteUser,getpublications,postpublications,updatepublications };
+export default { deletepublications,getpublications,postpublications,updatepublications };
